@@ -24,7 +24,7 @@ jobs:
           destination-github-username: 'minje0204'
           destination-repository-name: 'K-Vote-Clone'
           user-email: ${{ secrets.SMTC_ACCOUNT_EMAIL }}
-          commit-message: ${{ github.event.commits.message }}
+          commit-message: See ORIGIN_COMMIT from $GITHUB_REF
           target-branch: main
       - name: Test get variable exported by push-to-another-repository
         run: echo $DESTINATION_CLONED_DIRECTORY
