@@ -2,5 +2,5 @@
 #!/bin/sh
 cd ../
 mkdir output
-cp -R ./devwiki-client/* ./output
-cp -R ./output ./devwiki-client/
+cp -R ./Vote-client/* ./output
+cp -R ./output ./Vote-client/
